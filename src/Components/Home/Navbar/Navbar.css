@@ -1,0 +1,17 @@
+.Navbar {
+  display: flex;
+  min-height: 10vh;
+  min-width: 80vw;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Navbar-menu {
+  flex-grow: 1;
+}
+.Navbar-menu ul {
+  list-style: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

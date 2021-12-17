@@ -1,5 +1,6 @@
 import "./Navbar.css";
-import Logo from "../../Assets/logo.svg";
+import Logo from "../../../Assets/logo-dark.svg";
+import Button from "../../Utilities/Button";
 
 const Navbar = () => {
   return (
@@ -15,6 +16,7 @@ const Navbar = () => {
           <li>Contact</li>
         </ul>
       </div>
+      <Button title="Login" />
     </div>
   );
 };

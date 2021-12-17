@@ -1,0 +1,86 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 80vh;
+}
+.Header {
+  /* flex-grow: 2; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Header-Title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(5vw + 5px);
+  line-height: 88px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  width: 45vw;
+
+  word-wrap: break-word;
+}
+.Header-content {
+  padding-top: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(1vw + 1.5px);
+  line-height: 30px;
+  word-wrap: break-word;
+  width: 40vw;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+.Home-Btns {
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+}
+.Home-Image-Container {
+  margin-top: 50px;
+  min-height: 90vh;
+  width: 100vw;
+  position: relative;
+}
+.Home-Image-Gradient {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 30%;
+  bottom: 0%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0e0e0e 66.15%);
+}
+.Home-Image1 {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  top: 0;
+  left: 40%;
+  background: url("../../Assets/Dashboard1.png");
+  background-size: 100%;
+  transform: matrix(0.71, -0.54, 0.93, 0.71, 0, 0);
+}
+.Home-Image2 {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  top: 35%;
+  left: 20%;
+  background: url("../../Assets/Boards.png");
+  background-size: 100%;
+  transform: matrix(0.71, 0.54, -0.93, 0.71, 0, 0);
+}
+.Home-Image3 {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  top: 35%;
+  right: 15%;
+
+  background: url("../../Assets/ChatBot.png");
+  background-size: 100%;
+  transform: matrix(0.71, 0.54, -0.93, 0.71, 0, 0);
+}
