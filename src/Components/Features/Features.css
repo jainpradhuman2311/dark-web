@@ -1,0 +1,76 @@
+.Features {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Features-Section {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.Features-Image-Section {
+  flex: 1;
+  position: relative;
+}
+.Features-Image-Section {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Features-Card-Section {
+  flex: 1;
+}
+.IMG1 {
+  width: 55rem;
+}
+.IMG2 {
+  width: 30rem;
+  position: absolute;
+  bottom: -12%;
+  right: 10%;
+}
+
+.Features-Card-Section {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  /* margin-right: 10rem; */
+}
+.Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 20rem;
+}
+.Card-Title {
+  display: flex;
+  align-items: center;
+  word-wrap: break-word;
+  padding-right: 2rem;
+  margin-bottom: 1rem;
+}
+.Card-Heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  letter-spacing: 0.01rem;
+  padding-left: 2rem;
+}
+.Card-Content {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+
+  letter-spacing: 0.02rem;
+}
+.Card-Title > img {
+  width: 3rem;
+}

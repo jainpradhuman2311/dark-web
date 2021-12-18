@@ -15,24 +15,24 @@
 .Header-Title {
   font-style: normal;
   font-weight: 500;
-  font-size: calc(5vw + 5px);
-  line-height: 88px;
+  font-size: 8rem;
+  line-height: 8.8rem;
   text-align: center;
-  letter-spacing: 0.2px;
-  width: 45vw;
+  letter-spacing: 0.02rem;
+  width: 70rem;
 
   word-wrap: break-word;
 }
 .Header-content {
-  padding-top: 10px;
+  padding-top: 1rem;
   font-style: normal;
   font-weight: normal;
-  font-size: calc(1vw + 1.5px);
-  line-height: 30px;
+  font-size: 2rem;
+  line-height: 3rem;
   word-wrap: break-word;
   width: 40vw;
   text-align: center;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.02rem;
 }
 .Home-Btns {
   display: flex;
@@ -40,44 +40,44 @@
   justify-content: space-between;
 }
 .Home-Image-Container {
-  margin-top: 50px;
-  min-height: 90vh;
+  margin-top: 5rem;
+  min-height: 100vh;
   width: 100vw;
   position: relative;
 }
 .Home-Image-Gradient {
+  /* mix-blend-mode: hue; */
+  width: 100vw;
+  height: 50vh;
   position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 30%;
   bottom: 0%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0e0e0e 66.15%);
 }
 .Home-Image1 {
   position: absolute;
-  width: 400px;
-  height: 300px;
+  width: 30%;
+  height: 40%;
   top: 0;
-  left: 40%;
+  left: 33%;
   background: url("../../Assets/Dashboard1.png");
   background-size: 100%;
   transform: matrix(0.71, -0.54, 0.93, 0.71, 0, 0);
 }
 .Home-Image2 {
   position: absolute;
-  width: 400px;
-  height: 300px;
+  width: 30%;
+  height: 40%;
   top: 35%;
-  left: 20%;
+  left: 14%;
   background: url("../../Assets/Boards.png");
   background-size: 100%;
   transform: matrix(0.71, 0.54, -0.93, 0.71, 0, 0);
 }
 .Home-Image3 {
   position: absolute;
-  width: 400px;
-  height: 300px;
-  top: 35%;
+  width: 30%;
+  height: 40%;
+  top: 30%;
   right: 15%;
 
   background: url("../../Assets/ChatBot.png");
