@@ -16,3 +16,8 @@
   justify-content: space-evenly;
   font-size: 1.6rem;
 }
+@media (width < 1068px) {
+  .Navbar-menu {
+    display: none;
+  }
+}

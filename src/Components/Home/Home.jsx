@@ -23,12 +23,12 @@ const Home = () => {
           <Button title="Learn More" />
         </div>
       </div>
-      <div className="Home-Image-Container">
+      {/* <div className="Home-Image-Container">
         <div className="Home-Image1"></div>
         <div className="Home-Image2"></div>
         <div className="Home-Image3"></div>
         <div className="Home-Image-Gradient"></div>
-      </div>
+      </div> */}
     </>
   );
 };

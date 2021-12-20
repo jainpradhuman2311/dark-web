@@ -9,17 +9,17 @@
 .Heading-Title {
   font-style: normal;
   font-weight: normal;
-  font-size: 5.2rem;
-  line-height: 6.2rem;
+  font-size: 5.2vmin;
+  line-height: 6.2vmin;
   /* identical to box height, or 119% */
 
-  letter-spacing: 0.02rem;
+  letter-spacing: 0.02vmin;
 }
 .Heading-Content {
   text-align: center;
   font-style: normal;
   font-weight: normal;
-  font-size: 2rem;
-  line-height: 3rem;
+  font-size: 2vmin;
+  line-height: 3vmin;
   word-wrap: break-word;
 }
