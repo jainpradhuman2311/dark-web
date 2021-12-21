@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  max-height: 80vh;
+  min-height: 80vh;
 }
 .Header {
   /* flex-grow: 2; */
@@ -40,17 +40,15 @@
   justify-content: space-between;
 }
 .Home-Image-Container {
-  /* margin-top: 30vmin; */
+  position: relative;
+  margin-top: 10%;
   min-height: 100vh;
   width: 100vw;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
-  /* position: relative; */
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0e0e0e 66.15%);
 }
 .Home-Image-Gradient {
-  /* mix-blend-mode: hue; */
   width: 100vw;
   height: 50vh;
   position: absolute;
@@ -60,34 +58,32 @@
 
 .Home-Image1 {
   position: absolute;
-  width: 30vmax;
-  height: 25vmax;
+  width: 55vmin;
+  height: 45vmin;
   top: 0;
-  left: 33%;
+  left: 35%;
   background: url("../../Assets/Dashboard1.png");
   background-size: 100%;
   transform: matrix(0.71, -0.54, 0.93, 0.71, 0, 0);
 }
 .Home-Image2 {
   position: absolute;
-  width: 30vmax;
-  height: 25vmax;
-  top: 35%;
-  left: 10%;
+  width: 55vmin;
+  height: 45vmin;
+  top: 0;
+  left: -110%;
   background: url("../../Assets/Boards.png");
   background-size: 100%;
-  /* transform: matrix(0.71, 0.54, -0.93, 0.71, 0, 0); */
 }
 .Home-Image3 {
   position: absolute;
-  width: 30vmax;
-  height: 25vmax;
-  top: 38%;
-  right: 15%;
+  width: 55vmin;
+  height: 45vmin;
+
+  top: 110%;
 
   background: url("../../Assets/ChatBot.png");
   background-size: 100%;
-  /* transform: matrix(0.71, 0.54, -0.93, 0.71, 0, 0); */
 }
 
 @media (width < 1068px) {
@@ -96,7 +92,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    min-height: 100vh;
+    min-height: 60vh;
   }
   .Home-Btns {
     flex-direction: column;
@@ -105,35 +101,29 @@
   }
 
   .Home-Image1 {
-    position: relative;
+    position: absolute;
     width: 35vmin;
     height: 25vmin;
-    top: 0;
-    left: 40%;
-    background: url("../../Assets/Dashboard1.png");
-    background-size: 100%;
-    /* transform: matrix(0.71, -0.54, 0.93, 0.71, 0, 0); */
   }
   .Home-Image2 {
-    position: absolute;
     width: 35vmin;
     height: 25vmin;
     top: 0;
-    /* right: -100%; */
     left: -110%;
-    background: url("../../Assets/Boards.png");
-    background-size: 100%;
-    /* transform: matrix(0.71, 0.54, -0.93, 0.71, 0, 0); */
   }
   .Home-Image3 {
-    position: absolute;
     width: 35vmin;
     height: 25vmin;
 
     top: 110%;
-
-    background: url("../../Assets/ChatBot.png");
-    background-size: 100%;
-    /* transform: matrix(0.71, 0.54, -0.93, 0.71, 0, 0); */
+  }
+  .Home-Image-Container {
+    position: relative;
+    margin-top: 10%;
+    min-height: 60vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0e0e0e 66.15%);
   }
 }
