@@ -23,3 +23,22 @@
   line-height: 3vmin;
   word-wrap: break-word;
 }
+@media (width < 1068px) {
+  .Heading-Title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.2vmax;
+    line-height: 6.2vmax;
+    /* identical to box height, or 119% */
+
+    letter-spacing: 0.02vmax;
+  }
+  .Heading-Content {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.7vmax;
+    line-height: 3vmax;
+    word-wrap: break-word;
+  }
+}

@@ -13,3 +13,13 @@
 
   letter-spacing: 0.02vmin;
 }
+@media (width < 1068px) {
+  .Button {
+    font-size: 1.5vmax;
+  }
+}
+@media (height < 350px) {
+  .Button {
+    height: 15vmin;
+  }
+}

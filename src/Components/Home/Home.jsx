@@ -28,8 +28,6 @@ const Home = () => {
           <div className="Home-Image2"></div>
           <div className="Home-Image3"></div>
         </div>
-
-        {/* <div className="Home-Image-Gradient"></div> */}
       </div>
     </>
   );

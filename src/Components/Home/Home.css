@@ -3,10 +3,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  min-height: 80vh;
+  height: 75vmin;
+  margin-bottom: 3rem;
 }
 .Header {
-  /* flex-grow: 2; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -38,33 +38,31 @@
   display: flex;
   width: 30vmax;
   justify-content: space-between;
+  gap: 1rem;
 }
 .Home-Image-Container {
   position: relative;
-  margin-top: 10%;
-  min-height: 100vh;
+  height: 90vmin;
   width: 100vw;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
+  /* mix-blend-mode: color-dodge; */
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0e0e0e 66.15%);
-}
-.Home-Image-Gradient {
-  width: 100vw;
-  height: 50vh;
-  position: absolute;
-  bottom: 0%;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0e0e0e 66.15%);
+  /* background-color: aquamarine; */
 }
 
 .Home-Image1 {
-  position: absolute;
+  /* border: 10px solid gray; */
+  /* position: absolute; */
+  /* position: relative; */
   width: 55vmin;
   height: 45vmin;
-  top: 0;
   left: 35%;
   background: url("../../Assets/Dashboard1.png");
   background-size: 100%;
   transform: matrix(0.71, -0.54, 0.93, 0.71, 0, 0);
+  /* z-index: -1; */
 }
 .Home-Image2 {
   position: absolute;
@@ -92,7 +90,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    min-height: 60vh;
+    /* background: gold; */
+    margin-bottom: 0rem;
+  }
+  .Header-content {
+    padding-top: 1vmin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vmax;
+    line-height: 3vmax;
+    word-wrap: break-word;
+    width: 50vmax;
+    text-align: center;
+    letter-spacing: 0.02vmax;
   }
   .Home-Btns {
     flex-direction: column;
@@ -101,7 +111,6 @@
   }
 
   .Home-Image1 {
-    position: absolute;
     width: 35vmin;
     height: 25vmin;
   }
@@ -118,12 +127,35 @@
     top: 110%;
   }
   .Home-Image-Container {
-    position: relative;
-    margin-top: 10%;
-    min-height: 60vh;
-    width: 100vw;
-    display: flex;
+    overflow: hidden;
     align-items: center;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0e0e0e 66.15%);
+    height: 60vmin;
+  }
+}
+@media (height < 600px) {
+  .Header-content {
+    padding-top: 1vmin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 4rem;
+    word-wrap: break-word;
+    width: 50vmax;
+    text-align: center;
+    letter-spacing: 0.2vmin;
+  }
+  .Header-Title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4vmax;
+    line-height: 5.6rem;
+    text-align: center;
+    letter-spacing: 0.02vmax;
+    width: 35vmax;
+
+    word-wrap: break-word;
+  }
+  .Home {
+    height: 40vmax;
   }
 }
